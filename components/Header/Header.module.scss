@@ -1,3 +1,22 @@
 .header {
-  flex: 0 0 20.83%;
+  //flex: 0 0 20.83%;
+  flex: 0 0 300px;
+  padding: 26px 0;
+  background: radial-gradient(160.65% 47.4% at 93% 52.6%, #482C98 0%, rgba(45, 30, 136, 0) 100%), #06054A;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.sign {
+  width: 47px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #656AD9;
+  color: #fff;
 }
