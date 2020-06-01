@@ -17,9 +17,12 @@
 }
 
 .logo {
+  padding: 0 30px;
+}
+
+.logoLink {
   display: flex;
   justify-content: space-between;
-  padding: 0 30px;
 }
 
 .sign {
@@ -40,47 +43,6 @@
 
 .nav {
   flex: 1 0 auto;
-}
-
-.navList {
-
-}
-
-.navListItem {
-  &:last-child a {
-    border-bottom: none;
-  }
-}
-
-.navListLink {
-  position: relative;
-  display: block;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  margin: 0 0 0 30px;
-  padding: 0.65em 30px 0.6em 0;
-  color: #fff;
-  font-size: 20px;
-  line-height: 25px;
-
-  &:hover {
-    @media (hover: hover) and (pointer: fine) {
-      text-decoration: underline;
-    }
-  }
-
-  &.withArrow {
-    &::after {
-      content: '';
-      position: absolute;
-      right: 30px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 17px;
-      height: 10px;
-      background-image: url("/images/arrow-right.svg");
-      background-repeat: no-repeat;
-    }
-  }
 }
 
 .bottom {

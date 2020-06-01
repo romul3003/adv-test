@@ -1,14 +1,19 @@
 import React from 'react'
-import styles from './Header.module.scss'
+import Link from 'next/link'
 import NavList from '../NavList/NavList'
 import navLinks from '../../config/navLinks'
+import styles from './Header.module.scss'
 
 const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <img src="/images/logo.svg" alt="logo"/>
-        <div className={styles.sign}>beta</div>
+        <Link href="/">
+          <a className={styles.logoLink}>
+            <img src="/images/logo.svg" alt="logo"/>
+            <span className={styles.sign}>beta</span>
+          </a>
+        </Link>
       </div>
 
       <div className={styles.wrap}>
