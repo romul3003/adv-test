@@ -1,0 +1,40 @@
+.navListItem {
+  &:last-child a {
+    border-bottom: none;
+  }
+}
+
+.navListLink {
+  position: relative;
+  display: block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0 0 0 30px;
+  padding: 0.65em 30px 0.6em 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+
+  &:hover {
+    @media (hover: hover) and (pointer: fine) {
+      text-decoration: underline;
+    }
+  }
+
+  &.withArrow {
+    &::after {
+      content: '';
+      position: absolute;
+      right: 30px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 17px;
+      height: 10px;
+      background-image: url("/images/arrow-right.svg");
+      background-repeat: no-repeat;
+    }
+  }
+
+  &.active {
+    background-color: #433E8D;
+  }
+}
