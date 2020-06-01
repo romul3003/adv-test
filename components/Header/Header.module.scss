@@ -7,9 +7,14 @@
   background-image: radial-gradient(160.65% 47.4% at 93% 52.6%, #482C98 0%, rgba(45, 30, 136, 0) 100%),
     url("/images/rings.svg");
   background-repeat: no-repeat;
-  background-position: 50% 100%;
+  background-position: 50% 94%;
+  background-size: contain;
   background-color: #06054A;
   color: #fff;
+
+  @media (min-width: 1440px) {
+
+  }
 
   @media (max-width: 1024px) {
     background-image: radial-gradient(160.65% 47.4% at 93% 52.6%, #482C98 0%, rgba(45, 30, 136, 0) 100%);

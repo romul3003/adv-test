@@ -1,0 +1,9 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 4.6vh 0;
+
+  @media (min-width: 1440px) {
+    margin: 0 0 45px 0;
+  }
+}

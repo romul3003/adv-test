@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import NavList from '../NavList/NavList'
-import navLinks from '../../config/navLinks'
+import navLinks from '../../data/navLinks'
 import styles from './Header.module.scss'
 
 const Header = () => {
