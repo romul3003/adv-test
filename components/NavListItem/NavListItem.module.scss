@@ -2,6 +2,10 @@
   &:last-child a {
     border-bottom: none;
   }
+
+  &.active {
+    background-color: #433E8D;
+  }
 }
 
 .navListLink {
@@ -36,9 +40,5 @@
         right: 25px;
       }
     }
-  }
-
-  &.active {
-    background-color: #433E8D;
   }
 }

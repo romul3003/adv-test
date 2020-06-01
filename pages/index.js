@@ -1,11 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
-import Header from '../components/Header/Header'
 import MainContent from '../components/MainContent/MainContent'
 import Layout from '../components/Layout/Layout'
 
-export default function Home() {
-  return (
+const Home = () => (
     <>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,4 +15,5 @@ export default function Home() {
     </Layout>
     </>
   )
-}
+
+export default Home
