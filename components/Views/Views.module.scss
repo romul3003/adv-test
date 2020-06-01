@@ -1,0 +1,37 @@
+.viewsList {
+  display: flex;
+}
+
+.viewsItem {
+  &:first-child {
+    button {
+      background-color: #fff;
+      border: 1px solid #52458A;
+    }
+  }
+
+  &:last-child {
+    button {
+      background-color: #52458A;
+      border: 1px solid #52458A;
+    }
+  }
+}
+
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-top: 1px solid #F0F1FA;
+  border-bottom: 1px solid #F0F1FA;
+  background-color: #F0F1FA;
+
+  &:hover {
+    @media (hover: hover) and (pointer: fine) {
+      cursor: pointer;
+    }
+  }
+}

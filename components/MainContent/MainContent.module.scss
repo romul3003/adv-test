@@ -1,4 +1,11 @@
 .main {
   //flex: 0 0 79.17%;
   flex: 0 0 calc(100% - 300px);
+  padding: 36px 45px 79px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
