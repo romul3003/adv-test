@@ -31,6 +31,10 @@
       height: 10px;
       background-image: url("/images/arrow-right.svg");
       background-repeat: no-repeat;
+
+      @media (max-width: 767px) {
+        right: 25px;
+      }
     }
   }
 

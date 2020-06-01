@@ -1,0 +1,24 @@
+.btn {
+  display: none;
+  width: 30px;
+  height: 15px;
+
+  background-image: url("/images/toggle-open.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  @media (max-width: 767px) {
+    display: block;
+  }
+
+  &.active {
+    width: 22px;
+    height: 21px;
+    background-image: url("/images/toggle-close.svg");
+  }
+}
